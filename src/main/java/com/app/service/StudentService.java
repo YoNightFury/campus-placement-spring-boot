@@ -6,13 +6,8 @@ import static com.app.CustomCommandLineRunner.RESUME_PATH;
 import java.io.File;
 import java.io.IOException;
 import java.util.Optional;
-import java.util.Set;
 
 import javax.transaction.Transactional;
-import javax.validation.ConstraintViolation;
-import javax.validation.Validation;
-import javax.validation.Validator;
-import javax.validation.ValidatorFactory;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,7 +25,6 @@ import com.app.dto.StudentDto;
 import com.app.dto.SuccessMessageDto;
 import com.app.pojos.Company;
 import com.app.pojos.Course;
-import com.app.pojos.Credential;
 import com.app.pojos.PlacementDetails;
 import com.app.pojos.Project;
 import com.app.pojos.Round;
